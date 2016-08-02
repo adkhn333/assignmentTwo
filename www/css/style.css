@@ -1,0 +1,595 @@
+/* Empty. Add your own CSS if you like */
+/* 240 320 640 768 1024 */
+
+
+#line-through {
+    position: absolute;
+    width: 85%;
+    height: 2px;
+    top: 20px;
+    left: 10px;
+    z-index: 999;
+    background-color: red;
+}
+#line-through-fb {
+    position: absolute;
+    width: 70%;
+    height: 2px;
+    top: 48px;
+    background-color: #FF8386;
+}
+
+.vendorSelect .location-icon-container {
+    position: absolute; bottom: 0em; left: 1em; text-align: center;
+}
+
+.vendorSelect .location-icon-container div {
+     border-radius: 50%; background-color: red; height: 35px;width: 35px; padding-top: 5px;
+}
+
+.vendorSelect .m-navColor {
+    background-color: #424242;
+}
+
+.vendorSelect .m-navColor .title {
+    text-decoration: #EEEEEE;
+    color: #EEEEEE;
+}
+.vendorSelect .m-navColor a.button {
+    text-decoration: #EEEEEE;
+    color: #EEEEEE;
+}
+
+.vendorSelect i.icon.ion-star.active {
+    color: #12BABA;
+}
+
+.vendorSelect i.icon.ion-star {
+    color: white;
+}
+
+.vendorSelect i.icon.ion-ios-location {
+    color: #F5F5F5;
+}
+
+.vendorSelect .p-fix.card {
+    background-image: url('../img/banner.jpg');
+}
+
+.vendorSelect .p-fix.card .row .c-col-40 {
+     text-align: center; padding-top: 2em;
+}
+
+.vendorSelect .c-title {
+    color: #F5F5F5;
+}
+
+.vendorSelect .c-subtitle {
+    color: #F5F5F5;
+}
+
+.vendorSelect span.badge {
+    background-color: #FF8386;
+    color: #F5F5F5;
+}
+
+.vendorSelect #rating {
+    float: right;
+}
+
+.vendorSelect #rating p {
+    color: #F5F5F5;
+}
+
+.vendorSelect .c-location-distance {
+    color: #F5F5F5;
+}
+
+.vendorSelect .fab-button {
+     height: 50px; width: 50px; border-radius: 50%; position: fixed; bottom: 50px; right: 20px;
+}
+
+@media(max-width: 240px) {
+    .vendorSelect .c-col-40 {
+        -webkit-box-flex: 0;
+        -webkit-flex: 0 0 40%;
+        -moz-box-flex: 0;
+        -moz-flex: 0 0 40%;
+        -ms-flex: 0 0 40%;
+        flex: 0 0 40%;
+        max-width: 40%;
+    }
+    .vendorSelect #section2.c-col-60 {
+        -webkit-box-flex: 0;
+        -webkit-flex: 0 0 60%;
+        -moz-box-flex: 0;
+        -moz-flex: 0 0 60%;
+        -ms-flex: 0 0 60%;
+        flex: 0 0 60%;
+        max-width: 60%;
+    }
+    .vendorSelect #section2 {
+        border-left: 70px solid rgba(0, 0, 0, 0);
+    }
+    .vendorSelect .c-title {
+        font-size: 0.7em;
+        letter-spacing: 0.1em;
+        margin-bottom: 0.7em;
+    }
+    .vendorSelect .c-subtitle {
+        font-size: 0.4em;
+        letter-spacing: 0.1em;
+        line-height: 0em;
+    }
+    .vendorSelect .c-location-icon {
+        font-size: 1.2em;
+    }
+    .vendorSelect .c-location-distance {
+        font-size: 0.7em;
+    }
+    .vendorSelect #rating {
+        padding-right: 0.1em;;
+    }
+    .vendorSelect #rating i {
+        font-size: 0.7em;
+    }
+    .vendorSelect #rating p {
+        font-size: 0.7em;  
+        right: 0.5em;
+        margin-top: 0em;
+    }
+    .vendorSelect #price-tag {
+        width: auto;
+        position: absolute;
+        bottom: 0.2em;
+        right: 0.5em;
+    }
+    .vendorSelect #price-tag div span {
+        margin-top: 1em;
+        font-size: 0.7em;
+        margin-right: 0.5em;
+    }
+    .vendorSelect #price-tag div span.left-price {
+        padding-left: 1em;
+        padding-right: 1em;
+    }
+}
+@media(min-width: 241px) and (max-width: 320px) {
+    .vendorSelect #section2 {
+        border-left: 70px solid rgba(0, 0, 0, 0);
+    }
+    .vendorSelect .c-title {
+        font-size: 0.7em;
+        letter-spacing: 0.1em;
+        margin-bottom: 0.7em;
+    }
+    .vendorSelect .c-subtitle {
+        font-size: 0.6em;
+        letter-spacing: 0.1em;
+        line-height: 0em;
+    }
+    .vendorSelect .c-location-icon {
+        font-size: 1.2em;
+    }
+    .vendorSelect .c-location-distance {
+        font-size: 0.8em;
+    }
+    .vendorSelect #rating {
+        padding-right: 0.1em;;
+    }
+    .vendorSelect #rating i {
+        font-size: 0.7em;
+    }
+    .vendorSelect #rating p {
+        font-size: 0.7em;  
+        right: 0.5em;
+        margin-top: 0em;
+    }
+    .vendorSelect #price-tag {
+        width: auto;
+        position: absolute;
+        bottom: 0.2em;
+        right: 0.5em;
+    }
+    .vendorSelect #price-tag div span {
+        margin-top: 1em;
+        font-size: 0.7em;
+        margin-right: 0.5em;
+    }
+    .vendorSelect #price-tag div span.left-price {
+        padding-left: 1em;
+        padding-right: 1em;
+    }
+}
+@media(min-width: 321px) and (max-width: 420px) {
+    .vendorSelect #section2 {
+        border-left: 70px solid rgba(0, 0, 0, 0);
+    }
+    .vendorSelect .c-title {
+        font-size: 0.8em;
+        letter-spacing: 0.1em;
+        margin-bottom: 0.7em;
+    }
+    .vendorSelect .c-subtitle {
+        font-size: 0.7em;
+        letter-spacing: 0.1em;
+        line-height: 0em;
+    }
+    .vendorSelect .c-location-icon {
+        font-size: 1.5em;
+    }
+    .vendorSelect .c-location-distance {
+        font-size: 0.8em;
+        font-weight: bold;
+    }
+    .vendorSelect #rating {
+        padding-right: 0.1em;;
+    }
+    .vendorSelect #rating i {
+        font-size: 0.8em;
+    }
+    .vendorSelect #rating p {
+        font-size: 0.7em;  
+        right: 0.5em;
+        margin-top: 0em;
+    }
+    .vendorSelect #price-tag {
+        width: auto;
+        position: absolute;
+        bottom: 0.2em;
+        right: 0.5em;
+    }
+    .vendorSelect #price-tag div span {
+        margin-top: 1em;
+        font-size: 0.8em;
+    }
+    .vendorSelect #price-tag .original-price span.left-price {
+        margin-left: 1.5em;
+        padding-left: 1em;
+        padding-right: 1em;
+    }
+    .vendorSelect #price-tag .discounted-price span.left-price {
+        padding-left: 2em;
+        padding-right: 2em;
+    }
+
+    .vendorSelect #price-tag .original-price span:last-child {
+        margin-right: 1em;
+        margin-left: 1em;
+    }
+    .vendorSelect #price-tag .original-price span:first-child {
+        margin-left: 0.5em;
+    }
+    .vendorSelect #price-tag .discounted-price span:last-child {
+        margin-right:1em;
+        margin-left: 1em;
+    }
+}
+@media(min-width: 421px) and (max-width: 540px) {
+    .vendorSelect #section2 {
+        border-left: 90px solid rgba(0, 0, 0, 0);
+    }
+    .vendorSelect .c-col-40 {
+        -webkit-box-flex: 0;
+        -webkit-flex: 0 0 50%;
+        -moz-box-flex: 0;
+        -moz-flex: 0 0 50%;
+        -ms-flex: 0 0 50%;
+        flex: 0 0 50%;
+        max-width: 50%;
+    }
+    .vendorSelect #section2.c-col-60 {
+        -webkit-box-flex: 0;
+        -webkit-flex: 0 0 50%;
+        -moz-box-flex: 0;
+        -moz-flex: 0 0 50%;
+        -ms-flex: 0 0 50%;
+        flex: 0 0 50%;
+        max-width: 50%;
+    }
+    .vendorSelect .c-title {
+        font-size: 0.8em;
+        letter-spacing: 0.1em;
+        margin-bottom: 0.7em;
+    }
+    .vendorSelect .c-subtitle {
+        font-size: 0.7em;
+        letter-spacing: 0.1em;
+        line-height: 0em;
+    }
+    .vendorSelect .c-location-icon {
+        font-size: 1.5em;
+    }
+    .vendorSelect .c-location-distance {
+        font-size: 0.8em;
+        font-weight: bold;
+    }
+    .vendorSelect #rating {
+        padding-right: 0.1em;;
+    }
+    .vendorSelect #rating i {
+        font-size: 0.9em;
+    }
+    .vendorSelect #rating p {
+        font-size: 0.8em;  
+        right: 0.5em;
+        margin-top: 0em;
+    }
+    .vendorSelect #price-tag {
+        width: auto;
+        position: absolute;
+        bottom: 0.2em;
+        right: 0.5em;
+    }
+    .vendorSelect #price-tag div span {
+        margin-top: 1em;
+        font-size: 0.8em;
+    }
+    .vendorSelect #price-tag .original-price span.left-price {
+        margin-left: 1.5em;
+        padding-left: 1em;
+        padding-right: 1em;
+    }
+    .vendorSelect #price-tag .discounted-price span.left-price {
+        padding-left: 2em;
+        padding-right: 2em;
+    }
+
+    .vendorSelect #price-tag .original-price span:last-child {
+        margin-right: 1em;
+        margin-left: 1em;
+    }
+    .vendorSelect #price-tag .original-price span:first-child {
+        margin-left: 0.5em;
+    }
+    .vendorSelect #price-tag .discounted-price span:last-child {
+        margin-right:1em;
+        margin-left: 1em;
+    }
+}
+@media(min-width: 541px) and (max-width: 640px) {
+    .vendorSelect #section2 {
+        border-left: 90px solid rgba(0, 0, 0, 0);
+    }
+    .vendorSelect .c-col-40 {
+        -webkit-box-flex: 0;
+        -webkit-flex: 0 0 50%;
+        -moz-box-flex: 0;
+        -moz-flex: 0 0 50%;
+        -ms-flex: 0 0 50%;
+        flex: 0 0 50%;
+        max-width: 50%;
+    }
+    .vendorSelect #section2.c-col-60 {
+        -webkit-box-flex: 0;
+        -webkit-flex: 0 0 50%;
+        -moz-box-flex: 0;
+        -moz-flex: 0 0 50%;
+        -ms-flex: 0 0 50%;
+        flex: 0 0 50%;
+        max-width: 50%;
+    }
+    .vendorSelect .c-title {
+        font-size: 0.9em;
+        letter-spacing: 0.1em;
+        margin-bottom: 0.7em;
+    }
+    .vendorSelect .c-subtitle {
+        font-size: 0.8em;
+        letter-spacing: 0.1em;
+        line-height: 0em;
+    }
+    .vendorSelect .c-location-icon {
+        font-size: 1.5em;
+    }
+    .vendorSelect .c-location-distance {
+        font-size: 0.8em;
+        font-weight: bold;
+    }
+    .vendorSelect #rating {
+        padding-right: 0.3em;;
+    }
+    .vendorSelect #rating i {
+        font-size: 1em;
+    }
+    .vendorSelect #rating p {
+        font-size: 0.9em;  
+        right: 0.5em;
+        margin-top: 0em;
+    }
+    .vendorSelect #price-tag {
+        width: auto;
+        position: absolute;
+        bottom: 0.2em;
+        right: 0.5em;
+    }
+    .vendorSelect #price-tag div span {
+        margin-top: 1em;
+        font-size: 0.8em;
+    }
+    .vendorSelect #price-tag .original-price span.left-price {
+        margin-left: 1.5em;
+        padding-left: 1em;
+        padding-right: 1em;
+    }
+    .vendorSelect #price-tag .discounted-price span.left-price {
+        padding-left: 2em;
+        padding-right: 2em;
+    }
+
+    .vendorSelect #price-tag .original-price span:last-child {
+        margin-right: 1em;
+        margin-left: 1em;
+    }
+    .vendorSelect #price-tag .original-price span:first-child {
+        margin-left: 0.5em;
+    }
+    .vendorSelect #price-tag .discounted-price span:last-child {
+        margin-right:1em;
+        margin-left: 1em;
+    }
+}
+@media(min-width: 641px) {
+    .vendorSelect #section2 {
+        border-left: 120px solid rgba(0, 0, 0, 0);
+    }
+    .vendorSelect .c-col-40 {
+        -webkit-box-flex: 0;
+        -webkit-flex: 0 0 50%;
+        -moz-box-flex: 0;
+        -moz-flex: 0 0 50%;
+        -ms-flex: 0 0 50%;
+        flex: 0 0 50%;
+        max-width: 50%;
+    }
+    .vendorSelect #section2.c-col-60 {
+        -webkit-box-flex: 0;
+        -webkit-flex: 0 0 50%;
+        -moz-box-flex: 0;
+        -moz-flex: 0 0 50%;
+        -ms-flex: 0 0 50%;
+        flex: 0 0 50%;
+        max-width: 50%;
+    }
+    .vendorSelect .c-title {
+        font-size: 0.9em;
+        letter-spacing: 0.1em;
+        margin-bottom: 0.7em;
+    }
+    .vendorSelect .c-subtitle {
+        font-size: 0.8em;
+        letter-spacing: 0.1em;
+        line-height: 0em;
+    }
+    .vendorSelect .c-location-icon {
+        font-size: 1.5em;
+    }
+    .vendorSelect .c-location-distance {
+        font-size: 0.8em;
+        font-weight: bold;
+    }
+    .vendorSelect #rating {
+        padding-right: 0.3em;;
+    }
+    .vendorSelect #rating i {
+        font-size: 1em;
+    }
+    .vendorSelect #rating p {
+        font-size: 0.9em;  
+        right: 0.5em;
+        margin-top: 0em;
+    }
+    .vendorSelect #price-tag {
+        width: auto;
+        position: absolute;
+        bottom: 0.2em;
+        right: 0.5em;
+    }
+    .vendorSelect #price-tag div span {
+        margin-top: 1em;
+        font-size: 0.8em;
+    }
+    .vendorSelect #price-tag .original-price span.left-price {
+        margin-left: 1.5em;
+        padding-left: 1em;
+        padding-right: 1em;
+    }
+    .vendorSelect #price-tag .discounted-price span.left-price {
+        padding-left: 2em;
+        padding-right: 2em;
+    }
+
+    .vendorSelect #price-tag .original-price span:last-child {
+        margin-right: 1em;
+        margin-left: 1em;
+    }
+    .vendorSelect #price-tag .original-price span:first-child {
+        margin-left: 0.5em;
+    }
+    .vendorSelect #price-tag .discounted-price span:last-child {
+        margin-right:1em;
+        margin-left: 1em;
+    }
+}
+.vendorSelect #section2 {
+    border-bottom: 150px solid rgba(33,33,33 ,0.8);
+    display: block;
+    height: 0;
+    float: right;
+}
+.vendorSelect .tabs {
+    position: fixed;
+    top: 300px;
+    right: -5px;
+    width: 60px;
+    background-color: transparent;
+    border-color: transparent;
+}
+.vendorSelect .tabs .tab-item {
+    color: white;
+    height: inherit;
+    background-color: #12BABA;
+}
+
+.vendorSelect .tabs .tab-item i {
+     font-size: 25px; padding-top: 5px;
+}
+
+.vendorSelect #toggleButton {
+    position: absolute;
+    right: 0;
+}
+.vendorSelect .toggle .row {
+    padding: 0;
+    margin: 0;
+    display: flex !important;
+}
+.vendorSelect .track .col {
+    padding: 0;
+    margin: 0;
+}
+.vendorSelect .track button {
+    font-size: 20px;
+    background-color: transparent;
+    border: none;
+    text-align: center;
+    cursor: pointer;
+}
+.vendorSelect .track  button.is-active {
+    color:white !important;
+    background-color: #424242;
+}
+.vendorSelect .track  button:not(is-active) {
+    color:#12BABA !important;
+    background-color: white;
+}
+.vendorSelect #toggleButton .toggle .track {
+    width: 60px !important;
+    overflow: hidden;
+}
+.vendorSelect #toggleButton .toggle .track a {
+    color: inherit;
+}
+.vendorSelect .p-fix.card .row {
+    padding: 0;
+}
+.vendorSelect .p-fix.card .col {
+    padding: 0;
+}
+.vendorSelect .c-title {
+     font-weight: bold;
+}
+.vendorSelect .card {
+    height: 10em !important;
+    overflow: hidden;
+}
+.vendorSelect #rating p {
+    position: absolute;
+}
+.vendorSelect .c-location-distance {
+    margin: 0;
+}
+.vendorSelect .p-fix.card {
+    position: relative; 
+    border: 1px darkgrey;
+}

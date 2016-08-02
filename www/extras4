@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="initial-scale=1, maximum-scale=1, user-scalable=no, width=device-width">
+    <title></title>
+
+    <link href="lib/ionic/css/ionic.css" rel="stylesheet">
+    <link rel="stylesheet" href="assets/font-awesome-4.6.3/css/font-awesome.min.css">
+    <link href="css/style.css" rel="stylesheet">
+
+    <!-- IF using Sass (run gulp sass first), then uncomment below and remove the CSS includes above
+    <link href="css/ionic.app.css" rel="stylesheet">
+    -->
+
+    <!-- ionic/angularjs js -->
+    <script src="lib/ionic/js/ionic.bundle.js"></script>
+
+    <!-- cordova script (this will be a 404 during development) -->
+    <script src="cordova.js"></script>
+
+    <!-- your app's js -->
+    <script src="js/app.js"></script>
+  </head>
+  <body ng-app="starter">
+    <div class="tabs tabs-icon-top col">
+      <a class="tab-item">
+        <i class="icon ion-funnel"></i>
+        FILTER
+      </a>
+      <a class="tab-item">
+        <i class="icon ion-stats-bars"></i>
+        SORT BY
+      </a>
+    </div>
+    <ion-pane>
+      <ion-header-bar class="bar-light">
+        <a href="" class="button icon-left ion-chevron-left button-clear button-dark"></a>
+        <h1 class="title">Select Vendors</h1>
+        <div id="toggleButton">
+          <label class="toggle">
+            <input type="checkbox">
+            <div class="track">
+              <i class="fa fa-male"></i>
+              <div class="handle"></div>
+              <i class="fa fa-female"></i>
+            </div>
+          </label>
+        </div>
+      </ion-header-bar>
+      <ion-content>
+        <div class="p-fix card">
+            <div class="row" style="background-image: url('img/headers/2.png')">
+                <div id="section1" class="col col-50" style="text-align: center; padding-top: 20px;">
+                  <div class="col">
+                      <h6 style="font-weight: bold;">Saundarya Shree Beauty Parlour</h6>
+                      <p>in front of global school</p>
+                  </div>
+                  <div class="col">
+                      <i class="icon ion-ios-location" style="font-size: 2em;"></i>
+                      <p>2.4Km</p>
+                  </div>
+                </div>
+                <div id="section2" class="col col-50">
+                    <div class="col">
+                        <div style="float: right; padding-right: 10px;">
+                            <i class="icon ion-star energized"></i>
+                            <i class="icon ion-star energized"></i>
+                            <i class="icon ion-star energized"></i>
+                            <i class="icon ion-star"></i>
+                            <i class="icon ion-star"></i>
+                            <p style="font-size: 0.8em; position: absolute; right: 20px;">PLATINUM</p>
+                        </div>
+                        <div id="price-tag" style="float: right; clear: both; padding-top: 100px; padding-right: 5px;">
+                          <div style="text-decoration: line-through;">
+                            <span class="badge badge-dark" style="text-decoration: line-through;">
+                                <i class="fa fa-inr"></i>
+                                30
+                            </span>
+                            <span class="badge badge-dark" style="text-decoration: line-through;">
+                                <i class="fa fa-inr"></i>
+                                30000
+                            </span>
+                          </div>
+                          <div style="text-decoration: line-through;">
+                            <span class="badge badge-dark" style="">
+                                <i class="fa fa-inr"></i>
+                                10
+                            </span>
+                            <span class="badge badge-dark" style="">
+                                <i class="fa fa-inr"></i>
+                                10000
+                            </span>
+                          </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+      </ion-content>
+        <button class="button button-assertive" style="height: 50px; width: 50px; border-radius: 50%; position: fixed; bottom: 50px; right: 10px;">
+        <i class="icon ion-ios-location"></i>
+      </button>
+    </ion-pane>
+  </body>
+</html>

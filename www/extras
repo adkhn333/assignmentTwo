@@ -1,0 +1,60 @@
+<div class="row">
+            <div class="col col-33 col-offset-67">
+              <div class="row">
+                <div class="col">
+                  <i class="icon ion-star energized"></i>
+                  <i class="icon ion-star energized"></i>
+                  <i class="icon ion-star energized"></i>
+                  <i class="icon ion-star"></i>
+                  <i class="icon ion-star"></i>
+                </div>
+              </div>
+              <div class="row">
+                <div class="col">
+                  <span>PLATINUM</span>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="row">
+            <div class="col col-50" style="text-align: center">
+              <h5 style="font-weight: bold">Saundarya Shree Beauty Parlour</h5>
+              <p>in front of global school</p>
+            </div>
+          </div>
+          <div class="row">
+            <div class="col col-33" style="text-align: center">
+              <div class="row">
+                <div class="col">
+                  <i class="icon ion-ios-location" style="font-size: 30px"></i>
+                </div>
+              </div>
+              <div class="row">
+                <div class="col">
+                  <p>2.5km</p>
+                </div>
+              </div>
+            </div>
+            <div class="col col-33 col-offset-33">
+              <div class="row">
+                <div class="col col-50">
+                  <span class="badge badge-dark">
+                    <i class="fa fa-inr padding-right"></i>30</span>
+                </div>
+                <div class="col col-50">
+                  <span class="badge badge-dark">
+                    <i class="fa fa-inr padding-right"></i>3000</span>
+                </div>
+              </div>
+              <div class="row">
+                <div class="col col-50">
+                  <span class="badge badge-dark">
+                    <i class="fa fa-inr padding-right"></i>10</span>
+                </div>
+                <div class="col col-50">
+                  <span class="badge badge-dark">
+                    <i class="fa fa-inr padding-right"></i>1000</span>
+                </div>
+              </div>
+            </div>
+          </div>

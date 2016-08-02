@@ -1,0 +1,311 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="initial-scale=1, maximum-scale=1, user-scalable=no, width=device-width">
+    <title></title>
+
+    <link href="lib/ionic/css/ionic.css" rel="stylesheet">
+    <link rel="stylesheet" href="assets/font-awesome-4.6.3/css/font-awesome.min.css">
+    <link href="css/style.css" rel="stylesheet">
+
+    <!-- IF using Sass (run gulp sass first), then uncomment below and remove the CSS includes above
+    <link href="css/ionic.app.css" rel="stylesheet">
+    -->
+
+    <!-- ionic/angularjs js -->
+    <script src="lib/ionic/js/ionic.bundle.js"></script>
+
+    <!-- cordova script (this will be a 404 during development) -->
+    <script src="cordova.js"></script>
+
+    <!-- your app's js -->
+    <script src="js/app.js"></script>
+    <style>
+      .card {
+        padding: 0;
+        background-color: #F9F9F9;
+      }
+      .card.row {
+        width: 97%;
+      }
+      #section2 {
+        border-bottom: 180px solid rgb(82, 106, 222);
+        border-left: 120px solid rgba(0, 0, 0, 0);
+        display: block;
+        height: 0;
+        width: 50%;
+        float: right;
+      }
+      
+      .tabs {
+        position: fixed;
+        top: 300px;
+        right: 0;
+        width: 80px;
+        background-color: transparent;
+        border-color: transparent;
+      }
+      .tabs .tab-item {
+        color: white;
+        height: inherit;
+        background-color: #171717;
+      }
+      #toggleButton {
+        position: absolute;
+        right: 0;
+      }
+      .track .fa {
+        font-size: 27px;
+      }
+      .track .fa:first-child {
+        padding-left: 7px;
+      }
+      
+      #toggleButton .toggle input:checked + .track {
+        border-color:  #e6e6e6;
+        background-color: white;
+      }
+      #toggleButton .toggle .track {
+        width: 55px !important;
+      }
+      #toggleButton .toggle input:checked + .track .handle {
+        transform: translate3d(25px, 0, 0) !important;
+      }
+    </style>
+  </head>
+  <body ng-app="starter">
+    <div class="tabs tabs-icon-top col">
+      <a class="tab-item">
+        <i class="icon ion-funnel"></i>
+        FILTER
+      </a>
+      <a class="tab-item">
+        <i class="icon ion-stats-bars"></i>
+        SORT BY
+      </a>
+    </div>
+    <ion-pane>
+      <ion-header-bar class="bar-light">
+        <a href="" class="button icon-left ion-chevron-left button-clear button-dark"></a>
+        <h1 class="title">Select Vendors</h1>
+        <div id="toggleButton">
+          <label class="toggle">
+            <input type="checkbox">
+            <div class="track">
+              <i class="fa fa-male"></i>
+              <div class="handle"></div>
+              <i class="fa fa-female"></i>
+            </div>
+          </label>
+        </div>
+      </ion-header-bar>
+      <ion-content>
+        <div class="card row">
+          <div id="section1" class="col col-50" style="text-align: center">
+              <h5 style="font-weight: bold; padding-top: 50px;">Saundarya Shree Beauty Parlour</h5>
+              <p>in front of global school</p>
+              <i class="icon ion-ios-location padding-left" style="font-size: 30px; float: left;"></i>
+              <p style="text-align: left; clear: both;">2.5Km</p>
+          </div>
+          <div id="section2" class="col col-50 padding-right" style="text-align: right">
+              <div class="col">
+                <i class="icon ion-star energized"></i>
+                <i class="icon ion-star energized"></i>
+                <i class="icon ion-star energized"></i>
+                <i class="icon ion-star"></i>
+                <i class="icon ion-star"></i>
+              </div>
+              <div class="col">
+                PLATINUM
+              </div>
+              <div class="col" style="text-decoration: line-through; padding-top: 65px;">
+                  <span class="badge badge-dark" style="text-decoration: line-through; padding-left: 5px; padding-right: 5px;">
+                    <i class="fa fa-inr"></i>
+                    30
+                  </span>
+                  <span class="badge badge-dark" style="text-decoration: line-through; padding-left: 5px; padding-right: 5px;">
+                    <i class="fa fa-inr"></i>
+                    30000
+                  </span>
+              </div>
+              <div class="col" style="text-decoration: line-through;">
+                  <span class="badge badge-dark" style="padding-left: 5px; padding-right: 5px;">
+                    <i class="fa fa-inr"></i>
+                    10
+                  </span>
+                  <span class="badge badge-dark" style="padding-left: 5px; padding-right: 5px;">
+                    <i class="fa fa-inr"></i>
+                    10000
+                  </span>
+              </div>
+          </div>
+        </div>
+        <div class="card row">
+          <div id="section1" class="col col-50" style="text-align: center">
+              <h5 style="font-weight: bold; padding-top: 50px;">Saundarya Shree Beauty Parlour</h5>
+              <p>in front of global school</p>
+              <i class="icon ion-ios-location padding-left" style="font-size: 30px; float: left;"></i>
+              <p style="text-align: left; clear: both;">2.5Km</p>
+          </div>
+          <div id="section2" class="col col-50 padding-right" style="text-align: right">
+              <div class="col">
+                <i class="icon ion-star energized"></i>
+                <i class="icon ion-star energized"></i>
+                <i class="icon ion-star energized"></i>
+                <i class="icon ion-star"></i>
+                <i class="icon ion-star"></i>
+              </div>
+              <div class="col">
+                PLATINUM
+              </div>
+              <div class="col" style="text-decoration: line-through; padding-top: 65px;">
+                  <span class="badge badge-dark" style="text-decoration: line-through; padding-left: 5px; padding-right: 5px;">
+                    <i class="fa fa-inr"></i>
+                    30
+                  </span>
+                  <span class="badge badge-dark" style="text-decoration: line-through; padding-left: 5px; padding-right: 5px;">
+                    <i class="fa fa-inr"></i>
+                    30000
+                  </span>
+              </div>
+              <div class="col" style="text-decoration: line-through;">
+                  <span class="badge badge-dark" style="padding-left: 5px; padding-right: 5px;">
+                    <i class="fa fa-inr"></i>
+                    10
+                  </span>
+                  <span class="badge badge-dark" style="padding-left: 5px; padding-right: 5px;">
+                    <i class="fa fa-inr"></i>
+                    10000
+                  </span>
+              </div>
+          </div>
+        </div>
+        <div class="card row">
+          <div id="section1" class="col col-50" style="text-align: center">
+              <h5 style="font-weight: bold; padding-top: 50px;">Saundarya Shree Beauty Parlour</h5>
+              <p>in front of global school</p>
+              <i class="icon ion-ios-location padding-left" style="font-size: 30px; float: left;"></i>
+              <p style="text-align: left; clear: both;">2.5Km</p>
+          </div>
+          <div id="section2" class="col col-50 padding-right" style="text-align: right">
+              <div class="col">
+                <i class="icon ion-star energized"></i>
+                <i class="icon ion-star energized"></i>
+                <i class="icon ion-star energized"></i>
+                <i class="icon ion-star"></i>
+                <i class="icon ion-star"></i>
+              </div>
+              <div class="col">
+                PLATINUM
+              </div>
+              <div class="col" style="text-decoration: line-through; padding-top: 65px;">
+                  <span class="badge badge-dark" style="text-decoration: line-through; padding-left: 5px; padding-right: 5px;">
+                    <i class="fa fa-inr"></i>
+                    30
+                  </span>
+                  <span class="badge badge-dark" style="text-decoration: line-through; padding-left: 5px; padding-right: 5px;">
+                    <i class="fa fa-inr"></i>
+                    30000
+                  </span>
+              </div>
+              <div class="col" style="text-decoration: line-through;">
+                  <span class="badge badge-dark" style="padding-left: 5px; padding-right: 5px;">
+                    <i class="fa fa-inr"></i>
+                    10
+                  </span>
+                  <span class="badge badge-dark" style="padding-left: 5px; padding-right: 5px;">
+                    <i class="fa fa-inr"></i>
+                    10000
+                  </span>
+              </div>
+          </div>
+        </div>
+        <div class="card row">
+          <div id="section1" class="col col-50" style="text-align: center">
+              <h5 style="font-weight: bold; padding-top: 50px;">Saundarya Shree Beauty Parlour</h5>
+              <p>in front of global school</p>
+              <i class="icon ion-ios-location padding-left" style="font-size: 30px; float: left;"></i>
+              <p style="text-align: left; clear: both;">2.5Km</p>
+          </div>
+          <div id="section2" class="col col-50 padding-right" style="text-align: right">
+              <div class="col">
+                <i class="icon ion-star energized"></i>
+                <i class="icon ion-star energized"></i>
+                <i class="icon ion-star energized"></i>
+                <i class="icon ion-star"></i>
+                <i class="icon ion-star"></i>
+              </div>
+              <div class="col">
+                PLATINUM
+              </div>
+              <div class="col" style="text-decoration: line-through; padding-top: 65px;">
+                  <span class="badge badge-dark" style="text-decoration: line-through; padding-left: 5px; padding-right: 5px;">
+                    <i class="fa fa-inr"></i>
+                    30
+                  </span>
+                  <span class="badge badge-dark" style="text-decoration: line-through; padding-left: 5px; padding-right: 5px;">
+                    <i class="fa fa-inr"></i>
+                    30000
+                  </span>
+              </div>
+              <div class="col" style="text-decoration: line-through;">
+                  <span class="badge badge-dark" style="padding-left: 5px; padding-right: 5px;">
+                    <i class="fa fa-inr"></i>
+                    10
+                  </span>
+                  <span class="badge badge-dark" style="padding-left: 5px; padding-right: 5px;">
+                    <i class="fa fa-inr"></i>
+                    10000
+                  </span>
+              </div>
+          </div>
+        </div>
+        <div class="card row">
+          <div id="section1" class="col col-50" style="text-align: center">
+              <h5 style="font-weight: bold; padding-top: 50px;">Saundarya Shree Beauty Parlour</h5>
+              <p>in front of global school</p>
+              <i class="icon ion-ios-location padding-left" style="font-size: 30px; float: left;"></i>
+              <p style="text-align: left; clear: both;">2.5Km</p>
+          </div>
+          <div id="section2" class="col col-50 padding-right" style="text-align: right">
+              <div class="col">
+                <i class="icon ion-star energized"></i>
+                <i class="icon ion-star energized"></i>
+                <i class="icon ion-star energized"></i>
+                <i class="icon ion-star"></i>
+                <i class="icon ion-star"></i>
+              </div>
+              <div class="col">
+                PLATINUM
+              </div>
+              <div class="col" style="text-decoration: line-through; padding-top: 65px;">
+                  <span class="badge badge-dark" style="text-decoration: line-through; padding-left: 5px; padding-right: 5px;">
+                    <i class="fa fa-inr"></i>
+                    30
+                  </span>
+                  <span class="badge badge-dark" style="text-decoration: line-through; padding-left: 5px; padding-right: 5px;">
+                    <i class="fa fa-inr"></i>
+                    30000
+                  </span>
+              </div>
+              <div class="col" style="text-decoration: line-through;">
+                  <span class="badge badge-dark" style="padding-left: 5px; padding-right: 5px;">
+                    <i class="fa fa-inr"></i>
+                    10
+                  </span>
+                  <span class="badge badge-dark" style="padding-left: 5px; padding-right: 5px;">
+                    <i class="fa fa-inr"></i>
+                    10000
+                  </span>
+              </div>
+          </div>
+        </div>
+      </ion-content>
+      <button class="button button-assertive" style="height: 50px; width: 50px; border-radius: 50%; position: fixed; bottom: 50px; right: 10px;">
+        <i class="icon ion-ios-location"></i>
+      </button>
+    </ion-pane>
+      
+  </body>
+</html>
